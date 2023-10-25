@@ -9,6 +9,7 @@
     background-color:#000;
     color:#fff;
     height:100px;
+    margin-bottom:60px;
 }
 
 main{
@@ -56,4 +57,23 @@ main{
     cursor:pointer;
     text-decoration: underline;
     color:#444;
+}
+
+footer{
+    background-color:#000;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    padding:30px;
+}
+
+footer .credits-area{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+}
+
+footer .credits-area .credits{
+    font-size:12px;
 }
