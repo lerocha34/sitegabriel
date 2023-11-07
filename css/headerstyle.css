@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.banner{
+    width:100%;
+    background-color:#000;
+    color:#fff;
+    height:100px;
+    margin-bottom:60px;
+}
+
+.banner img{
+    height:100px;
+    width:300px;
+    margin-left:40px;
+}
+
+
+footer{
+    background-color:#d9d9d9;
+    padding:15px;
+    padding-left:40px;
+}
+.photo-area{
+    display:flex;
+    align-items:center;
+}
+.photo-area img{
+    width:180px;
+    border-radius:10px;
+    border:1px solid grey;
+}
+.photo-area .name{
+    font-size:35px;
+    font-weight: 700;
+    margin-left:80px;
+}
+.credit-text{
+    margin-top:15px;
+    font-size:25px;
+}

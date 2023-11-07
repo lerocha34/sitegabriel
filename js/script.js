@@ -15,7 +15,7 @@ lerMais.forEach(function(clique, index){
     } else {
       maisConteudo = 0;
       texto.style.height = "57px";
-      clique.innerHTML = "Ler Mais";}
+      clique.innerHTML = "Leia Mais";}
 
   
   })
