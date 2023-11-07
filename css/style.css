@@ -1,4 +1,14 @@
 
+body{
+    background-color:black;
+    margin-left:150px;
+    margin-right:150px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+main{
+    background-color:white;
+}
 
 main{
     display:flex;
@@ -9,25 +19,59 @@ main{
 .article-area{
     display:flex;
     text-align:justify;
+    align-items:center;
+    justify-content:center;
     margin:40px;
 }
 
 .article-area img{
-    width:100px;
-    height:100px;
+    width:400px;
+    height:300px;
     margin-right:10px;
     border:1px solid #000;
 }
 
 .article-area .article-texts .article-header{
     display:flex;
-    justify-content:space-between;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.article-area .article-texts .article-header .tag-area{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    align-self:flex-start;
+    font-size:18px;
+    text-transform: capitalize;
+    width:120px;
+    height:30px;
+    background-color:#ddd;
+    margin-bottom: 20px;
+    
+    
+
+}
+
+.article-area .article-texts .article-header .tag-area .tag-bar{
+    width:10px;
+    height:100%;
+    background-color:#f00;
+    align-self:flex-start;
+    margin-right:5px;
+}
+
+.article-area .article-texts .article-header .tag-area .tag-text{
+    background-color:#ddd;
 }
 
 .article-area .article-texts .article-header .article-title{
     font-size:20px;
     font-weight: 700;
+    font-style:italic;
     text-transform: uppercase;
+    
 
 }
 .article-area .article-texts .article-header .article-date{
