@@ -4,8 +4,8 @@
 }
 
 main{
-    padding-left:100px;
-    padding-right:100px;
+    padding-left:180px;
+    padding-right:180px;
     display:flex;
     flex-direction:column;
 }
@@ -18,9 +18,10 @@ main{
     margin-bottom:30px;
 
 }
-img{
+.article-image{
     align-self:center;
     width:500px;
+    border-radius:10%;
     
 }
 
