@@ -1,23 +1,26 @@
-let lerMais = document.querySelectorAll(".article-area .article-texts .article-read");
-let maisConteudo = 0
+let openMenu = document.querySelector(".banner .banner-image .menu-buttons");
+let xButton = document.querySelector(".menu .menu-opened .close-menu");
+let menu = document.querySelector(".menu");
 
 
+function menuOpened(){
+  menu.style.display = 'flex';
+  mouse = 1;
+}
+function closeMenu(){
+  menu.style.display = "none";
+
+}
+
+function mouseVerify(event){
+  var relatedElement = event.relatedTarget;
+  if(!menu.contains(relatedElement)){
+    closeMenu()
+  }
+}
 
 
-
-lerMais.forEach(function(clique, index){
-  clique.addEventListener("click", ()=>{
-    let texto = document.querySelectorAll(".article-text")[index];
-    if(maisConteudo === 0){
-      maisConteudo = 1;
-      texto.style.height = "auto";
-      clique.innerHTML = "Ler Menos";
-    } else {
-      maisConteudo = 0;
-      texto.style.height = "57px";
-      clique.innerHTML = "Leia Mais";}
-
-  
-  })
-})
+menu.addEventListener('mouseout', mouseVerify);
+openMenu.addEventListener('click',menuOpened);
+xButton.addEventListener('click',closeMenu);
 

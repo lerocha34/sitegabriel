@@ -4,13 +4,13 @@
     padding:0;
     text-decoration:none;
     color:black;
+    
 }
 
 
 body{
-    background-color:black;
-    margin-left:150px;
-    margin-right:150px;
+
+
     font-family:Arial, Helvetica, sans-serif
 }
 
@@ -20,6 +20,55 @@ main{
 
 header{
     margin-bottom:40px;
+}
+
+.menu{
+    position:fixed;
+    right:1px;
+    top:175px;
+    width:20%;
+    height:60vh;
+    background-color:black;
+    display:none;
+    justify-content: space-between;
+    
+   
+}
+
+.menu .menu-opened{
+    display:flex;
+    flex-direction:column;
+    margin-top:30px;
+    width:100%;
+    text-align: center;
+}
+.menu .menu-opened a{
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    height:fit-content;
+    color:#fff;
+    font-size:30px;
+    text-align:center;
+    margin-bottom:20px;
+    cursor:pointer;
+}
+
+.menu .menu-opened a:hover{
+    background-color:#fff;
+    color:#000;
+}
+
+.menu .menu-opened .close-menu{
+    color:#fff;
+    align-self:flex-end;
+    font-size:30px;
+    font-weight: 700;
+    cursor:pointer;
+    margin-right:10px;
+    
 }
 .banner{
     display:flex;
@@ -31,13 +80,45 @@ header{
     height:100px;
     margin-bottom:70px;
     margin-top:80px;
+    
 }
 
-.banner img{
+.banner .banner-image{
+    display:flex;
+    
+    justify-content:space-between;
     width:100%;
-    height:250px;
 }
 
+.banner .banner-image a img{
+    width:100%;
+    height:95px;
+
+
+}
+
+header a{
+    width:45%;
+    height:95px;
+}
+
+.banner .banner-image .menu-buttons{
+    width:100px;
+    height:100px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    
+}
+
+.banner .banner-image .menu-buttons .menu-bars{
+    width:80%;
+    height:5px;
+    background-color:#fff;
+    border-radius:15%;
+
+}
 
 footer{
     background-color:#d9d9d9;
