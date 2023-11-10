@@ -1,66 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ptbr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/headerstyle.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/headerstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho:wght@400;700&display=swap" rel="stylesheet">
     <title>Vida de Barba</title>
 </head>
 <body>
+
+    <nav class="mobile">
+        <div class="menu-mobile-button">
+            <div class="menu-buton"></div>
+            <div class="menu-buton"></div>
+            <div class="menu-buton"></div>
+
+        </div>
+        <div class="menu-mobile">
+            <div class="login-area">
+                <div class="login"><a href=""></a>
+                Log in
+            </div>
+            <div class="close-menu">X</div>
+        </div>
+        
+        <ul class="buttons-area">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html">Peça Online</a></li>
+        <li><a href="events.html">Eventos</a></li>
+        <li><a href="about.html">Sobre Nós</a></li>
+        <li><a href="gallery.html">Galeria</a></li>
+        </ul>
+        </div>
+        
+
+
+    </nav>
     <header>
-        <div class="banner">
-           <div class="banner-image">
-           <a href="index.html"><img src="images/Vida de Barba (8).png"></a>
-            <div class="menu-buttons">
-                <div class="menu-bars"></div>
-                <div class="menu-bars"></div>
-                <div class="menu-bars"></div>
-            </div>
-           </div>
-        </div>
-
-        <div class="menu">
-            <div class="menu-opened">
-                <div class="close-menu">X</div>
-                <a href="index.html">Principal</a>
-                <a href="index.html">Quem sou</a>
+        <div class="title-great-area">
+            <div class="title-small-area">
+                <div class="title">Vida de Barba</div>
             </div>
         </div>
-
-        <div class="banner-mobile">
-            <a href="index.html"><img src="images/Vida de Barba (8).png"></a>
-        </div>
-
-        <div class="menu-buttons-mobile">
-            <div class="menu-bars"></div>
-            <div class="menu-bars"></div>
-        </div>
+        <div class="subtitle">por Gabriel Bill</div>
     </header>
 
-    <main>
-        <section class="article-area">
-            <img src="images/article1logo.JPG" class="image">
-            <div class="article-texts">
-                <div class="article-header">
-                    <div class="tag-area">
-                        <div class="tag-bar"></div>
-                        <div class="tag-text">mentalidade</div>
-                    </div>
-                    <div class="article-title"><a href="artigos/artigo1.html">O que saber antes de montar o seu Guarda-Roupa Masculino no estilo minimalista?</a></div>
-                </div>
+    <nav class="desktop">
+        <div class="menu-desktop-area">
+        <div class="menu-desktop">
+           <ul class="buttons-area">
+            <li id="actived"><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Mentalidade</a></li>
+            <li><a href="order.html">Finanças Pessoais</a></li>
+            <li><a href="events.html">Relacionamento</a></li>
+            <li><a href="about.html">Minimalismo</a></li>
+            
+        </ul>
+        </div>
+
+      
+        </div>
+    </nav>
+
+
+    <section class="banner">
+        <div class="gallery.wrapper">
+            <div class="gallery">
+                <img class="item current-item" src="images/slide1.jpg" alt="um bar, uma moça na frente e um barman ao fundo">
+                <img class="item" src="images/slide2.jpg" alt="uma mão segurando uma taça pelo cabo">
+                <img class="item" src="images/slide3.jpg" alt="chopeiras">
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+
+
+<main>
+    <div class="sections-area">
+    <section>
+        <div class="index-titles">Rodízio de Petiscos</div>
+        <img class="index-images"src="images/petiscos.jpg" alt="um prato de petiscos e cerveja">
+        <div class="index-paragraphs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat qui minima rerum at recusandae velit vero adipisci maxime dicta delectus ipsam est assumenda, repellendus voluptates voluptate deleniti. Mollitia, quibusdam soluta.</div>
+        <div class="read-more"><a href="">Leia Mais</a></div>
+    </section>
+
+
+    <section>
+        <div class="index-titles">Cervejas Artesanais</div>
+        <img class="index-images"src="images/cerveja.jpg" alt="uma chopeira">
+        <div class="index-paragraphs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat qui minima rerum at recusandae velit vero adipisci maxime dicta delectus ipsam est assumenda, repellendus voluptates voluptate deleniti. Mollitia, quibusdam soluta.</div>
+        <div class="read-more"><a href="">Leia Mais</a></div>
+    </section>
+
+    <section>
+        <div class="index-titles">Celebre Conosco</div>
+        <img class="index-images"src="images/celebrar.jpg" alt="duas taças de vinho">
+        <div class="index-paragraphs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat qui minima rerum at recusandae velit vero adipisci maxime dicta delectus ipsam est assumenda, repellendus voluptates voluptate deleniti. Mollitia, quibusdam soluta.</div>
+        <div class="read-more"><a href="">Leia Mais</a></div>
+    </section>
+
+    <section class="happy-hour-area">
+        <div class="index-titles">Happy Hour</div>
+        <div class="happy-hour">
+            <span>Dias de Semana</span>
+            <span>Das 17h às 19h</span>
+        </div>
+        <div class="index-paragraphs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat qui minima rerum at recusandae velit vero adipisci maxime dicta delectus ipsam est assumenda, repellendus voluptates voluptate deleniti. Mollitia, quibusdam soluta.</div>
+        
+    </section>
+</div>
+
+   
+</main>
+
+
+
 
     <footer>
-        <div class="photo-area">
-            <img src="images/gabrielfoto.JPG">
-            <div class="name">Gabriel Bill</div>
+        <div class="oppening-area">
+            <div class="oppenning-area-title"> Funcionamento </div>
+                <ul>
+                    <li>Segunda - Sexta</li>
+                    <li>11h - 23h</li>
+                    <li>Sábado - Domingo</li>
+                    <li>10h - 00h</li>
+                </ul>
+            
         </div>
-        <div class="credit-text">Carioca da gema, 34 anos, músico, especialista em primeiros períodos - pós graduação em trancamento de matrícula - atualmente estudante de Direito, servidor público. Apaixonado por RPG, cultura medieval, viking rock e nerdices. Empreendedor no Vida de Barba. Compatilho ensinamentos e experiências para meu filho assistir no futuro e você no presente!</div>
+
+        <div class="contact-area">
+            <div class="contact-title">Contato</div>
+            <div class="contact-adress">
+                <h5>Rua xxxxxxxx</h5>
+            </div>
+            
+            <div class="contact-emails">
+                <h5>E / info@dinner.com</h5>
+                <h5>T / (xx)12345-6789</h5>
+            </div>
+        </div>
+
+        <div class="findus-area">
+            <div class="find-us-title">Nos encontre</div>
+            <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29248.00540600202!2d-46.67456036479039!3d-23.604308712279593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a3ddcac81d5%3A0x372d47f24e5c2ce4!2sCASV%20-%20Centro%20de%20Atendimento%20ao%20Solicitante%20de%20Visto!5e0!3m2!1spt-BR!2sbr!4v1695388061740!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <div class="social-media-icons">
+                <a href=""><img src="images/instagramicon.JPG"></a>
+                <a href=""><img src="images/facebookicon.JPG"></a>
+            </div>
+            <div class="credits">Desenvolvido por <a href="">Leandro Rocha.</a><br/>Todos os direitos reservados
+
+            </div>
+        </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/indexscript.js"></script>
 </body>
 </html>
