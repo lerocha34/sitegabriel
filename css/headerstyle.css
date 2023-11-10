@@ -70,6 +70,10 @@ header{
     margin-right:10px;
     
 }
+
+.menu-buttons-mobile{
+    display:none;
+}
 .banner{
     display:flex;
     justify-content:center;
@@ -81,6 +85,9 @@ header{
     margin-bottom:70px;
     margin-top:80px;
     
+}
+.banner-mobile{
+    display:none;
 }
 
 .banner .banner-image{
@@ -142,4 +149,56 @@ footer{
 .credit-text{
     margin-top:15px;
     font-size:25px;
+    text-align:justify;
+}
+
+
+@media(min-width:374px)and (max-width:1023px){
+    .banner{
+        display:none;
+    }
+
+    .banner-mobile{
+        display:block;
+    }
+    .banner-mobile a img{
+        width:100vw;
+        height:120px;
+    }
+    .menu-buttons-mobile{
+        position:fixed;
+        display:flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items:center;
+        width:60px;
+        height:60px;
+        border-radius:50%; 
+        background-color: #000;
+        right:1px;
+        padding:10px;
+        margin-right:10px;
+    }
+    .menu-buttons-mobile .menu-bars{
+        width:60%;
+        height:3px;
+        background-color:white;
+    }
+
+    .photo-area .name{
+        margin-left:10px;
+        font-size:1.5625rem;
+    }
+
+    .credit-text{
+        font-size:18px;
+        text-align:justify;
+    }
+    .menu{
+        width:70vw;
+        height:70vw;
+        border-radius:5%;
+        margin-right:0;
+        top:110px;
+    }
 }

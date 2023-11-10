@@ -64,3 +64,20 @@ ul li{
 footer{
     margin-top:60px;
 }
+
+@media(min-width:374px)and (max-width:1023px){
+    main{
+        padding:15px;
+    }
+
+    .article-image{
+        width:80vw;
+    }
+
+    .article-title{
+        font-size:20px;
+    }
+    .article-topic{
+        font-size:16px;
+    }
+}
