@@ -4,17 +4,21 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    
 }
 
 
 .gallery {
     display: flex;
     transition: transform 0.5s ease;
+    
 }
 
 .item {
     width: 100%;
-    height: auto;
+    height: 10%;
+    
+    
 }
 
 
@@ -107,6 +111,12 @@ option{
     background-color:black;
 }
 
+.empty{
+    width:237px;
+    height:540px;
+    background-color:red;
+    display:block;
+}
 @media (min-width:1023px){
     .banner {
         width: 75%;
