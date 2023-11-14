@@ -54,6 +54,10 @@ ul li{
     list-style:none;
 }
 
+ul,
+ol{
+    padding:0;
+}
 ol li{
     color:#555;
     font-weight: 700;
